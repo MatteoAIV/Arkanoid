@@ -20,8 +20,6 @@ function Ball:new()
 
   self.sprite = love.graphics.newImage("Sprites/Ball.png")
   self.shadow = love.graphics.newImage("Sprites/Ball_Shadow.png")
-  
-  self.number = 0
 end
 
 
